@@ -1,6 +1,6 @@
 class Product < ApplicationRecord
 
-	belongs_to :category
+	belongs_to :category, touch: true, counter_cache: true
 
 	default_scope { order("name ASC") }
 
@@ -12,6 +12,14 @@ class Product < ApplicationRecord
 
 	def full_ref_num
 		"#{prefix}-#{ref_num}"
+	end
+
+	def available_online?
+		true
+	end
+
+	def available_in_store?
+		true
 	end
 
 	private
