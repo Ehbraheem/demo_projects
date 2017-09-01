@@ -1,24 +1,30 @@
-# README
+# Ruby on Rails: Get More From ActiveRecord
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ready to speed up Ruby on Rails development?
 
-Things you may want to cover:
+Understanding how ActiveRecord is used to create, 
+update, and retrieve data in a relational database
+ is fundamental to writing more efficient, 
+ object-oriented code. This course helps you 
+ understand the basics of ActiveRecord and leverage
+ shortcuts and techniques to make data migrations
+ faster and more powerful. Kevin Skoglund reviews 
+ the basics of working with database records, and 
+ shows how to use ActiveRecord queries to locate 
+ records faster. He also shows how to use callbacks
+ to automate functionality when objects are saved 
+ or deleted, and create associations between 
+ ActiveRecord models to streamline common operations. 
+ By the end of the course, you will have the skills
+ you need to write concise, high-performance Rails
+ code that eliminates the need to deal with SQL and other tedious database queries.
 
-* Ruby version
+## Topics include:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Migrating databases
+* Creating, updating, and deleting records
+* Tracking changes to objects and attributes
+* Writing queries
+* Delegating attributes
+* Callbacks
+* Working with associations
