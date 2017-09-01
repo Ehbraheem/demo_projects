@@ -16,10 +16,10 @@ class CreateCategories < ActiveRecord::Migration[5.1]
 
     		say "Assigning products to categories"
     		Product.where.not(name: "Green Shirt").
-    		update_all(category_id: cat1.id)
+    			update_all(category_id: cat1.id)
 
     		Product.where(name: "Green Shirt").
-    		update_all(category_id: cat2.id)
+    			update_all(category_id: cat2.id)
     	end
 
     	dir.down do
